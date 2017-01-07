@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DatabindingSample</string>
+    <string name="simple">Simple</string>
+    <string name="sample_text">This is simple text binding.</string>
+    <string name="click_me">Click Me</string>
+    <string name="two_way">Two Way</string>
+    <string name="one_way">One Way Data Binding</string>
+    <string name="controlling_visibility">Controlling visibility</string>
+    <string name="recycle_view_sample">Recycle view Sample</string>
+</resources>

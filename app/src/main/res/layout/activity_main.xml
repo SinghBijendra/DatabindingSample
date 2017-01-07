@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.bijendra.databinding.sample.databindingsample.MainActivity">
+<Button
+    android:id="@+id/but_simple"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/simple"
+
+    style="@style/but_style"
+    android:layout_margin="@dimen/activity_vertical_margin"
+    />
+    <Button
+        android:id="@+id/but_one_way"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/one_way"
+        style="@style/but_style"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        />
+    <Button
+        android:id="@+id/but_controlling_visibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/controlling_visibility"
+        style="@style/but_style"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        />
+    <Button
+        android:id="@+id/but_recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recycle_view_sample"
+        style="@style/but_style"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        />
+</LinearLayout>
+
+</layout>
